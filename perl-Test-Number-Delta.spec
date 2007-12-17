@@ -7,7 +7,6 @@ Release:   %mkrel 1
 License:   Artistic
 Group:     Development/Perl
 URL:       http://www.cpan.org
-Buildroot: %{_tmppath}/%{name}-%{version}
 Buildarch: noarch
 Source:    http://search.cpan.org//CPAN/authors/id/D/DA/DAGOLDEN/Test-Number-Delta-1.03.tar.gz
 
