@@ -3,7 +3,7 @@
 Name:      perl-Test-Number-Delta
 Summary:   Test-Number-Delta - Perl module
 Version:   1.03
-Release:   %mkrel 1
+Release:   %mkrel 2
 License:   Artistic
 Group:     Development/Perl
 URL:       http://www.cpan.org
