@@ -1,14 +1,14 @@
 %define modname	Test-Number-Delta
-%define modver	1.03
+%define modver 1.04
 
 Summary:	Test-Number-Delta - Perl module
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	1
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-Number-Delta-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 
@@ -32,4 +32,5 @@ make test
 %files 
 %{perl_vendorlib}/Test
 %{_mandir}/man3/Test::Number::Delta.*
+
 
