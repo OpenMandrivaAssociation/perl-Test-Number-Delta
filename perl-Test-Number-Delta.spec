@@ -10,6 +10,9 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	perl(Test::More)
+BuildRequires:	perl(Test::Builder::Tester)
+BuildRequires:	perl(Test::Builder)
 BuildRequires:	perl-devel
 
 %description
