@@ -3,12 +3,12 @@
 
 Summary:	Test-Number-Delta - Perl module
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	4
+Version:	%{modver}
+Release:	5
 License:	Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Url:		https://github.com/dagolden/Test-Number-Delta
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Test-Number-Delta-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test::More)
